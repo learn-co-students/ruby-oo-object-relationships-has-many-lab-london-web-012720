@@ -2,7 +2,14 @@ require_relative "../lib/artist.rb"
 require_relative "../lib/song.rb"
 require_relative "../lib/author.rb"
 require_relative "../lib/post.rb"
+require "pry"
 
+# beyonce = Artist.new("Beyonce")
+# adele = Artist.new("Adele")
+# hello = Song.new("Hello")
+# adele.add_song(hello)
+# # adele.add_song_by_name("Rolling in the Deep")
+# # hello.artist = adele
 # binding.pry
 
 RSpec.configure do |config|
