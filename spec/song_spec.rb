@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 describe 'Song' do
   let!(:song) { Song.new('Survivor') }
   let!(:song2) { Song.new('My Heart Will Go On') }
